@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    padding: 1rem;
+    gap: 4rem;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile {
+    display: flex;
+    text-align: center;
+    gap: 15px;
+}
+
+.subtitle {
+    color: rgb(230, 230, 230);
+    font-size: 12px;
+}
+
+.profile-image {
+    width: 65px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+}
+
+.bio {
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+}
+
+.links {
+    display: flex;
+    gap: 5px;
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+h2,h3 {
+    font-family: monospace;
+}
+
+
+.content {
+    display: grid;
+    gap: 20px;
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.projeto {
+    background-color: rgb(32, 32, 32);
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+}
+
+.stack {
+    background-color: rgb(3, 95, 253);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tools {
+    display: flex;
+    gap: 10px;
+}
+
+.tool {
+    background-color: #fff;
+    border-radius: 5px;
+    aspect-ratio: 1 / 1;
+    width: 48px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.contact {
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact p {
+    font-size: 12px;
+}
+
+.clients {
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    border-radius: 10px;
+}
